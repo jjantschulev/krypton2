@@ -1,0 +1,23 @@
+{
+  "name": "krypton2",
+  "version": "1.0.0",
+  "description": "Revised encryption algorithm",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraken22/krypton2.git"
+  },
+  "author": "Jordan Jantschulev <j.jantschulev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kraken22/krypton2/issues"
+  },
+  "homepage": "https://github.com/kraken22/krypton2#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
