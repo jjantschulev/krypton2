@@ -1,4 +1,4 @@
-const socket = io("localhost:3018");
+const socket = io(window.location.href);
 
 var key = "key";
 var currentState = document.getElementById("currentState");
@@ -17,7 +17,7 @@ function onChangeKey (newKey) {
   if(newKey.length =- 0) {
     key = "key";
   } else {
-    key = newKey;    
+    key = newKey;
   }
 }
 
