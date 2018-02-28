@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-
-
-
+    <h3>1. Key</h3>
+    <input onchange="onChangeKey(this.value);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();">
+    <h3>2. Input</h3>
+    <textarea id="data-input" rows="20" cols="100" onchange="onInputChanged(this.value);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"></textarea>
+    <h3>3. Output</h3>
+    <textarea id="data-output" rows="20" cols="100" onchange="onOutputChanged(this.value);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"></textarea>
 
     <!-- Scripts -->
     <script src="/socket.io/socket.io.js" charset="utf-8"></script>

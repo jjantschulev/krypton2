@@ -1,4 +1,4 @@
-var seedrandom = require('seedrandom');
+const seedrandom = require('seedrandom');
 
 module.exports.encrypt = function (data, key) {
   var currentRandom = 0;
@@ -11,8 +11,8 @@ module.exports.encrypt = function (data, key) {
     array[i] = temp;
     currentRandom++;
   }
-  array.push(randomChar());
-  array.unshift(randomChar());
+  array.unshift("<");
+  array.push('>');
   return array.join("");
 }
 

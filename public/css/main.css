@@ -1,6 +1,12 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px 50px;
   font-family: sans-serif;
   background-color: rgb(245, 245, 245); /* This can be changed to suit your theme */
+}
+
+p {
+  width: 80%;
+  max-width: 300px;
+  word-wrap: normal;
 }
